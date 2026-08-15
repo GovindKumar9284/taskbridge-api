@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "pretest": "npm install",
     "test": "jest --coverage",
+    "test:one": "jest tests/taskService.test.js --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint src/",
     "migrate": "knex migrate:latest",
