@@ -1,27 +1,11 @@
-# TaskBridge React Frontend
+# TaskBridge — Notification & Audit Service (Assessment)
 
-This repository contains a lightweight ReactJS scaffold for the TaskBridge assessment.
+Tech stack
+- Node.js (v18+), Express, Knex + Objection, SQLite (tests), PostgreSQL (production), Jest + Supertest, Winston, ESLint
 
-Created structure (branch: develop):
+Quick start
+1. Install dependencies: npm install
+2. Start server: npm start
+3. Run tests: npm test
 
-- .github/copilot-instructions.md
-- src/
-  - components/
-    - TaskList.jsx
-    - TaskItem.jsx
-  - models/
-    - taskModel.js
-  - services/
-    - taskService.js
-  - notifications/
-    - index.js
-  - App.jsx
-  - index.js
-- projects/
-- tests/
-  - taskService.test.js
-- package.json
-- .gitignore
-
-Notes:
-- This is a minimal scaffold (no build system included). I recommend running `npm init` and installing React (or use Create React App / Vite) to start the app.
+This repository contains an assessment implementation for a Notification & Audit Service.
