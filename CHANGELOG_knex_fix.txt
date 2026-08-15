@@ -1,0 +1,1 @@
+Added a defensive try/catch around Knex initialization in src/db/knex.js that logs a clear message when the sqlite3 driver is missing, and re-throws the original error. This makes the failure actionable for developers running tests locally (install sqlite3 or run tests in an environment that provides sqlite3).
