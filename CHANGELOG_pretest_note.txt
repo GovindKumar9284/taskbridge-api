@@ -1,0 +1,3 @@
+I added a pretest script to package.json to ensure project dependencies are installed (including sqlite3) before running tests. This helps prevent the Knex sqlite3 missing module error when users run `npm test` without first running `npm install`.
+
+If you'd prefer not to run `npm install` automatically, remove the "pretest" script and ensure you run `npm install` manually before testing.
